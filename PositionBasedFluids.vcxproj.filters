@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{2f27c7fb-5354-4f13-b7cc-667b10a7e5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mesh">
+      <UniqueIdentifier>{4c7be3d4-ba52-4f23-b7ef-80d7e11df521}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\Kernel.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\stb_image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\mesh\Cube.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh\Mesh.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh\Stage.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh\Sphere.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh\Plane.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh\NDCTriangle.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh\NDCSquare.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h" />
+    <ClInclude Include="src\Kernel.h" />
+    <ClInclude Include="src\light.h" />
+    <ClInclude Include="src\material.h" />
+    <ClInclude Include="src\Object.h" />
+    <ClInclude Include="src\shader.h" />
+    <ClInclude Include="src\Simulator.h" />
+    <ClInclude Include="src\StaticObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\shaders\fluid_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\normal_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\normal_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\screen_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\screen_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\skybox_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\skybox_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\smoothedDepth_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\smoothedDepth_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\thickness_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\thickness_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\depth_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\depth_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\floor_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\floor_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\shaders\fluid_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
